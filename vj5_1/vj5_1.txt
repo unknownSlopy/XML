@@ -1,0 +1,17 @@
+XPath zadaci - studenti.xml
+============================
+
+1. Svi elementi koji su neposredna djeca elementa <Studenti>:
+/Studenti/*
+
+2. Svi elementi koji su neposredna djeca svakog elementa <Student>:
+/Studenti/Student/*
+
+3. Svi elementi <Kolokvij> koji imaju bilo koji atribut:
+//Kolokvij[@*]
+
+4. Svi atributi koji se nalaze bilo gdje u XML dokumentu:
+//@*
+
+5. Svi čvorovi unutar elementa <Predmet>, bez obzira na naziv:
+//Predmet//*
